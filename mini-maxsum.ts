@@ -6,5 +6,5 @@ function miniMaxSum(arr: number[]): void {
     let sum = arr.reduce((acc, cur) => acc + cur);
     const max = Math.max(...arr);
     const min = Math.min(...arr);
-    console.log(`${sum - max}, ${sum - min}`)
+    console.log(`${sum - max}, ${sum - min}`);
 }
